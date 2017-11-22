@@ -1,0 +1,6 @@
+#!/bin/bash
+isExistApp = 'pgrep apache2'
+if [[ -n $isExixtApp ]]; then
+	sudo service apache2 stop
+fi
+
